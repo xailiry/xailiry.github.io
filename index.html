@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Портфолио Кирилла Богатова (xailiry) - Python Backend и AI-Driven разработчика из Санкт-Петербурга."
+    />
+    <meta name="theme-color" content="#f4f7f3" />
+    <meta property="og:title" content="Кирилл Богатов (xailiry) - Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Python backend, agentic development and useful automation."
+    />
+    <title>Кирилл Богатов (xailiry) - Python Backend & AI-Driven Developer</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Перейти к содержанию</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="xailiry home">
+        <span class="brand-mark">x</span>
+        <span>xailiry</span>
+      </a>
+
+      <nav
+        class="desktop-nav"
+        aria-label="Основная навигация"
+        data-i18n-aria-label="mainNavigation"
+      >
+        <a href="#about" data-i18n="navAbout">Обо мне</a>
+        <a href="#stack" data-i18n="navStack">Стек</a>
+        <a href="#projects" data-i18n="navProjects">Проекты</a>
+        <a href="#contact" data-i18n="navContact">Контакты</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="language-switch" type="button" aria-label="Switch language">
+          <span data-lang-option="ru">RU</span>
+          <span aria-hidden="true">/</span>
+          <span data-lang-option="en">EN</span>
+        </button>
+        <a class="header-contact" href="#contact" data-i18n="contactShort">Написать</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy reveal">
+          <h1 data-i18n="heroTitle">
+            Пишу backend.<br />
+            Собираю AI-агентов.
+          </h1>
+          <p class="hero-lead" data-i18n="heroLead">
+            Меня зовут Кирилл Богатов, в сети - просто xailiry :). Я
+            Python-разработчик, создаю полезные инструменты и изучаю, как AI
+            меняет разработку.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">
+              <span data-i18n="viewProjects">Смотреть проекты</span>
+              <span aria-hidden="true">↘</span>
+            </a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/xailiry"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-secondary" href="./resume.pdf" download>
+              <span data-i18n="resume">Резюме</span>
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="hero-visual agent-visual reveal"
+          role="img"
+          aria-label="Анимация работы AI-агента с инструментами"
+          data-i18n-aria-label="agentVisualLabel"
+        >
+          <div class="agent-canvas">
+            <div class="agent-request">
+              <span class="agent-kicker" data-i18n="agentTaskLabel">Задача</span>
+              <strong data-i18n="agentTask" class="agent-task-text">Найти решение</strong>
+              <span class="typing-cursor" aria-hidden="true"></span>
+            </div>
+
+            <div class="agent-core">
+              <span class="agent-core-mark">x</span>
+              <div class="agent-core-text">
+                <strong>xailiry</strong>
+                <span data-i18n="agentCoreStatus" class="agent-core-status">анализирует задачу</span>
+                <span class="agent-think" aria-hidden="true"><i></i><i></i><i></i></span>
+              </div>
+              <i aria-hidden="true"></i>
+            </div>
+
+            <div class="tool-node tool-python">
+              <span>PY</span>
+              <strong>Python</strong>
+            </div>
+            <div class="tool-node tool-browser">
+              <span>WEB</span>
+              <strong data-i18n="agentBrowser">Браузер</strong>
+            </div>
+            <div class="tool-node tool-api">
+              <span>API</span>
+              <strong>Tools</strong>
+            </div>
+
+            <div class="agent-result">
+              <span class="result-check" aria-hidden="true">✓</span>
+              <div>
+                <span class="agent-kicker" data-i18n="agentResultLabel">Результат</span>
+                <strong data-i18n="agentResult" class="agent-result-text">Готово к использованию</strong>
+              </div>
+            </div>
+
+            <svg
+              class="agent-links"
+              viewBox="0 0 760 560"
+              preserveAspectRatio="none"
+              aria-hidden="true"
+            >
+              <path class="link-base" d="M190 112 C270 112 270 250 350 250" />
+              <path class="link-flow flow-one" pathLength="1" d="M190 112 C270 112 270 250 350 250" />
+              <path class="link-base" d="M435 235 C505 178 530 135 600 120" />
+              <path class="link-flow flow-two" pathLength="1" d="M435 235 C505 178 530 135 600 120" />
+              <path class="link-base" d="M445 260 C530 260 555 260 625 260" />
+              <path class="link-flow flow-three" pathLength="1" d="M445 260 C530 260 555 260 625 260" />
+              <path class="link-base" d="M430 285 C500 340 530 380 595 405" />
+              <path class="link-flow flow-four" pathLength="1" d="M430 285 C500 340 530 380 595 405" />
+              <path class="link-base" d="M370 305 C370 370 315 415 315 470" />
+              <path class="link-flow flow-five" pathLength="1" d="M370 305 C370 370 315 415 315 470" />
+            </svg>
+
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="quick-facts"
+        aria-label="Кратко обо мне"
+        data-i18n-aria-label="quickFacts"
+      >
+        <div class="fact reveal">
+          <span class="fact-value" data-count-from="2018">2023</span>
+          <span data-i18n="factStart">начал программировать</span>
+        </div>
+        <div class="fact reveal">
+          <span class="fact-value" id="age-value" data-count-from="0">17</span>
+          <span data-i18n="factAge">лет</span>
+        </div>
+        <div class="fact reveal">
+          <span class="fact-value">A2-B1</span>
+          <span data-i18n="factEnglish">английский язык</span>
+        </div>
+        <div class="fact fact-wide reveal">
+          <span class="fact-value">Python + AI</span>
+          <span data-i18n="factFocus">главный фокус сейчас</span>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about-heading reveal">
+          <h2 data-i18n="aboutTitle">Не просто пишу код. Разбираюсь в задаче.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p data-i18n="aboutTextOne">
+            Я Кирилл Богатов. Начал программировать в начале 2023 года с Python
+            и Django. С тех пор прошел путь от учебных веб-приложений до
+            автоматизации, парсеров и инструментов с AI.
+          </p>
+          <p data-i18n="aboutTextTwo">
+            Сейчас мой основной интерес - agentic development: агенты, tool
+            use, работа с контекстом и практичное применение новых моделей.
+            Слежу за индустрией и стараюсь проверять идеи собственными
+            проектами.
+          </p>
+        </div>
+        <div class="about-note reveal">
+          <p data-i18n="nowText">
+            Учусь, развиваю свои проекты и готовлюсь к ЕГЭ 2027 по информатике
+            и профильной математике.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="stack section"
+        id="stack"
+        aria-label="Стек и инструменты"
+        data-i18n-aria-label="stackTitle"
+      >
+        <div class="section-intro reveal">
+          <h2 data-i18n="stackTitle">Стек и инструменты</h2>
+          <p data-i18n="stackLead">
+            То, чем пользуюсь в работе - от бэкенда до агентных инструментов.
+          </p>
+        </div>
+        <div class="stack-groups">
+          <div class="stack-group reveal">
+            <h3 data-i18n="stackLanguages">Языки</h3>
+            <ul class="stack-list">
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="stack-group reveal">
+            <h3 data-i18n="stackBackend">Backend</h3>
+            <ul class="stack-list">
+              <li>Django</li>
+              <li>aiogram</li>
+              <li>SQLAlchemy</li>
+            </ul>
+          </div>
+          <div class="stack-group reveal">
+            <h3 data-i18n="stackData">Базы данных</h3>
+            <ul class="stack-list">
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+          <div class="stack-group reveal">
+            <h3 data-i18n="stackAutomation">Автоматизация и парсинг</h3>
+            <ul class="stack-list">
+              <li>Playwright</li>
+              <li>Chrome Extensions (MV3)</li>
+              <li>Bitrix24</li>
+            </ul>
+          </div>
+          <div class="stack-group reveal">
+            <h3 data-i18n="stackAI">AI и агенты</h3>
+            <ul class="stack-list">
+              <li>Claude Code</li>
+              <li>Codex</li>
+              <li>Google Antigravity</li>
+              <li>Gemini API</li>
+            </ul>
+          </div>
+          <div class="stack-group reveal">
+            <h3 data-i18n="stackTools">Инструменты</h3>
+            <ul class="stack-list">
+              <li>Git</li>
+              <li>Chart.js</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="section-intro reveal">
+          <h2 data-i18n="projectsTitle">Проекты, которые решают реальные задачи.</h2>
+          <p data-i18n="projectsLead">
+            Некоторые еще развиваются. Здесь важнее не идеальная упаковка, а
+            работающая идея и понятная инженерная логика.
+          </p>
+        </div>
+
+        <article class="project project-featured reveal">
+          <div class="project-gallery">
+            <img
+              class="project-image-main"
+              src="./assets/funpay-dashboard.png"
+              alt="Панель продавца FunPay Automation Tool"
+              data-i18n-alt="funpayImageAlt"
+            />
+            <img
+              class="project-image-detail"
+              src="./assets/funpay-multiposting.png"
+              alt="Интерфейс мультипостинга FunPay Automation Tool"
+              data-i18n-alt="funpayDetailAlt"
+            />
+          </div>
+          <div class="project-copy">
+            <div class="project-meta">
+              <span data-i18n="inDevelopment">В разработке</span>
+            </div>
+            <h3>FunPay Automation Tool</h3>
+            <p data-i18n="funpayDescription">
+              Расширение для продавцов FunPay: панель управления, статистика
+              продаж, мультипостинг и автоматическое поднятие объявлений.
+            </p>
+            <ul class="stack-list" aria-label="Technologies">
+              <li>JavaScript</li>
+              <li>Manifest V3</li>
+              <li>Chrome API</li>
+              <li>Unit tests</li>
+            </ul>
+            <a
+              class="project-link"
+              href="https://github.com/xailiry/FunPay-Automation-Tool"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span data-i18n="openGithub">Открыть на GitHub</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project project-techbot reveal">
+            <div class="project-media project-media-techhunter">
+              <img
+                src="./assets/techhunter-banner-v2.jpg"
+                alt="Аватар Telegram-бота TechHunter"
+                data-i18n-alt="techhunterImageAlt"
+              />
+            </div>
+            <div class="project-copy">
+              <div class="project-meta">
+                <span data-i18n="workingProject">Рабочий проект</span>
+              </div>
+              <h3>TechHunter Bot</h3>
+              <p data-i18n="techbotDescription">
+                Локальный Telegram-бот для поиска выгодных объявлений с
+                телефонами на Avito. Изучает рынок, оценивает состояние и
+                считает потенциальную маржу.
+              </p>
+              <ul class="stack-list" aria-label="Technologies">
+                <li>Python 3.13</li>
+                <li>aiogram</li>
+                <li>Playwright</li>
+                <li>SQLAlchemy</li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://github.com/xailiry/TechBot"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span data-i18n="openGithub">Открыть на GitHub</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project project-fitness reveal">
+            <div class="project-media project-media-fitness">
+              <img
+                src="./assets/smfitness-wordmark.png"
+                alt="Логотип SMFitness"
+                data-i18n-alt="fitnessImageAlt"
+              />
+            </div>
+            <div class="project-copy">
+              <div class="project-meta">
+                <span data-i18n="schoolProject">Школьный проект</span>
+              </div>
+              <h3>SMFitness</h3>
+              <p data-i18n="fitnessDescription">
+                Трекер тренировок с аналитикой прогресса и рекомендациями
+                Gemini. Первый завершенный full-stack проект, сделанный для
+                выступления в 10 классе.
+              </p>
+              <ul class="stack-list" aria-label="Technologies">
+                <li>Django 5</li>
+                <li>PostgreSQL</li>
+                <li>Gemini API</li>
+                <li>Chart.js</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://github.com/xailiry/SMFitness"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  class="project-link"
+                  href="https://smfitness.onrender.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Demo <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="journey section">
+        <div class="journey-heading reveal">
+          <h2 data-i18n="journeyTitle">Три года любопытства и практики.</h2>
+        </div>
+        <ol class="timeline">
+          <li class="reveal">
+            <time>2023</time>
+            <div>
+              <h3 data-i18n="timelineOneTitle">Первый код</h3>
+              <p data-i18n="timelineOneText">
+                Начал изучать Python и основы программирования.
+              </p>
+            </div>
+          </li>
+          <li class="reveal">
+            <time>2024-25</time>
+            <div>
+              <h3>Django & Backend</h3>
+              <p data-i18n="timelineTwoText">
+                Веб-приложения, базы данных, API и первые законченные продукты.
+              </p>
+            </div>
+          </li>
+          <li class="reveal">
+            <time>2026</time>
+            <div>
+              <h3>AI-Driven Development</h3>
+              <p data-i18n="timelineThreeText">
+                Агентные подходы, автоматизация и проекты на стыке AI и
+                классической разработки.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact-copy reveal">
+          <p class="eyebrow" data-i18n="contactEyebrow">Можно просто написать</p>
+          <h2 data-i18n="contactTitle">Есть идея или интересная задача?</h2>
+          <p data-i18n="contactText">
+            Я открыт к общению, совместным проектам и новым техническим
+            задачам. Быстрее всего отвечаю в Telegram.
+          </p>
+        </div>
+        <div class="contact-links reveal">
+          <a href="https://t.me/xiliksy" target="_blank" rel="noreferrer">
+            <span>Telegram</span>
+            <strong>@xiliksy</strong>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a href="mailto:bogatov_kirya09@mail.ru">
+            <span>Email</span>
+            <strong>bogatov_kirya09@mail.ru</strong>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a href="https://github.com/xailiry" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong>@xailiry</strong>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#top">
+        <span class="brand-mark">x</span>
+        <span>xailiry</span>
+      </a>
+      <p>
+        <span data-i18n="footerText">Кирилл Богатов · Санкт-Петербург</span>
+        <span aria-hidden="true"> · </span>
+        <span id="current-year">2026</span>
+      </p>
+    </footer>
+  </body>
+</html>
