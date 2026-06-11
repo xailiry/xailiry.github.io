@@ -69,6 +69,7 @@ const translations = {
     contactText:
       "Я открыт к общению, совместным проектам и новым техническим задачам. Быстрее всего отвечаю в Telegram.",
     footerText: "Кирилл Богатов · Санкт-Петербург",
+    visitorLabel: "Посещений:",
     pageTitle:
       "Кирилл Богатов (xailiry) - Python Backend и AI-Driven разработчик",
     pageDescription:
@@ -144,6 +145,7 @@ const translations = {
     contactText:
       "I'm open to conversations, collaborations and new technical challenges. Telegram is the fastest way to reach me.",
     footerText: "Kirill Bogatov · Saint Petersburg",
+    visitorLabel: "Visits:",
     pageTitle:
       "Kirill Bogatov (xailiry) - Python Backend & AI-Driven Developer",
     pageDescription:
@@ -292,6 +294,29 @@ if (countTargets.length) {
   );
   countTargets.forEach((element) => countObserver.observe(element));
 }
+
+async function loadVisitorCount() {
+  const stat = document.querySelector(".visitor-stat");
+  const count = document.getElementById("visitor-count");
+  if (!stat || !count) return;
+
+  try {
+    const response = await fetch(
+      "https://xalaksy.goatcounter.com/counter/TOTAL.json",
+    );
+    if (!response.ok) return;
+
+    const data = await response.json();
+    if (!data.count) return;
+
+    count.textContent = data.count;
+    stat.hidden = false;
+  } catch {
+    // Analytics may be blocked; keep the optional public counter hidden.
+  }
+}
+
+loadVisitorCount();
 
 // ===== Hero agent animation =====
 const agentContent = {

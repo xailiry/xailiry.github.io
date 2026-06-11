@@ -1195,6 +1195,10 @@ footer p {
   font-size: 11px;
 }
 
+.visitor-stat {
+  white-space: nowrap;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(24px);
