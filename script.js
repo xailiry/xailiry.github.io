@@ -1,14 +1,34 @@
 const translations = {
   ru: {
     skip: "Перейти к содержанию",
+    mainNavigation: "Основная навигация",
     navAbout: "Обо мне",
     navStack: "Стек",
     navProjects: "Проекты",
     navContact: "Контакты",
-    mainNavigation: "Основная навигация",
-    quickFacts: "Кратко обо мне",
     contactShort: "Написать",
+    quickFacts: "Кратко обо мне",
+    heroEyebrow: "Python Backend / AI-Driven Development",
+    heroLine1: "Пишу backend.",
+    heroLine2: 'Собираю <span class="accent-mid">AI-агентов.</span>',
+    heroLead:
+      "Меня зовут Кирилл Богатов, в сети - просто xailiry. Python-разработчик: создаю полезные инструменты и изучаю, как AI меняет разработку.",
+    viewProjects: "Смотреть проекты",
     resume: "Резюме",
+    statusLabel: "status.json",
+    statusRole: "Python Developer",
+    statusBased: "Санкт-Петербург",
+    factStart: "начал программировать",
+    factAge: "лет",
+    factEnglish: "английский язык",
+    factFocus: "главный фокус сейчас",
+    aboutTitle: "Не просто пишу код. Разбираюсь в задаче.",
+    aboutTextOne:
+      "Я Кирилл Богатов. Начал программировать в начале 2023 года с Python и Django. С тех пор прошел путь от учебных веб-приложений до автоматизации, парсеров и инструментов с AI.",
+    aboutTextTwo:
+      "Сейчас мой основной интерес - agentic development: агенты, tool use, работа с контекстом и практичное применение новых моделей. Слежу за индустрией и проверяю идеи собственными проектами.",
+    nowText:
+      "Учусь, развиваю свои проекты и готовлюсь к ЕГЭ 2027 по информатике и профильной математике.",
     stackTitle: "Стек и инструменты",
     stackLead:
       "То, чем пользуюсь в работе - от бэкенда до агентных инструментов.",
@@ -18,38 +38,13 @@ const translations = {
     stackAutomation: "Автоматизация и парсинг",
     stackAI: "AI и агенты",
     stackTools: "Инструменты",
-    heroTitle: "Пишу backend.<br>Собираю AI-агентов.",
-    heroLead:
-      "Меня зовут Кирилл Богатов, в сети - просто xailiry :). Я Python-разработчик, создаю полезные инструменты и изучаю, как AI меняет разработку.",
-    viewProjects: "Смотреть проекты",
-    agentVisualLabel: "Анимация работы AI-агента с инструментами",
-    agentTaskLabel: "Задача",
-    agentTask: "Найти решение",
-    agentCoreStatus: "анализирует задачу",
-    agentBrowser: "Браузер",
-    agentResultLabel: "Результат",
-    agentResult: "Готово к использованию",
-    factStart: "начал программировать",
-    factAge: "лет",
-    factEnglish: "английский язык",
-    factFocus: "главный фокус сейчас",
-    aboutTitle: "Не просто пишу код. Разбираюсь в задаче.",
-    aboutTextOne:
-      "Я Кирилл Богатов. Начал программировать в начале 2023 года с Python и Django. С тех пор прошел путь от учебных веб-приложений до автоматизации, парсеров и инструментов с AI.",
-    aboutTextTwo:
-      "Сейчас мой основной интерес - agentic development: агенты, tool use, работа с контекстом и практичное применение новых моделей. Слежу за индустрией и стараюсь проверять идеи собственными проектами.",
-    nowText:
-      "Учусь, развиваю свои проекты и готовлюсь к ЕГЭ 2027 по информатике и профильной математике.",
     projectsTitle: "Проекты, которые решают реальные задачи.",
     projectsLead:
-      "Некоторые еще развиваются. Здесь важнее не идеальная упаковка, а работающая идея и понятная инженерная логика.",
-    inDevelopment: "В разработке",
-    workingProject: "Рабочий проект",
-    schoolProject: "Школьный проект",
+      "Некоторые еще развиваются. Здесь важнее не упаковка, а работающая идея и понятная инженерная логика.",
     funpayDescription:
-      "Расширение для продавцов FunPay: панель управления, статистика продаж, мультипостинг и автоматическое поднятие объявлений.",
-    funpayImageAlt: "Панель продавца FunPay Automation Tool",
-    funpayDetailAlt: "Интерфейс мультипостинга FunPay Automation Tool",
+      "Центр управления для продавцов FunPay поверх любой страницы: поднятие объявлений, мультипостинг с пресетами, чат-менеджер и панель продавца со статистикой - все в одном интерфейсе на Shadow DOM.",
+    funpayImageAlt: "Центр управления FunPay Automation Tool",
+    funpayDetailAlt: "Панель продавца FunPay Automation Tool",
     techbotDescription:
       "Локальный Telegram-бот для поиска выгодных объявлений с телефонами на Avito. Изучает рынок, оценивает состояние и считает потенциальную маржу.",
     techhunterImageAlt: "Аватар Telegram-бота TechHunter",
@@ -74,58 +69,53 @@ const translations = {
       "Кирилл Богатов (xailiry) - Python Backend и AI-Driven разработчик",
     pageDescription:
       "Портфолио Кирилла Богатова (xailiry) - Python Backend и AI-Driven разработчика из Санкт-Петербурга.",
+    focus: ["agentic dev", "автоматизация", "tool use", "парсинг", "AI-driven"],
   },
   en: {
     skip: "Skip to content",
+    mainNavigation: "Main navigation",
     navAbout: "About",
     navStack: "Stack",
     navProjects: "Projects",
     navContact: "Contact",
-    mainNavigation: "Main navigation",
-    quickFacts: "Quick facts about me",
     contactShort: "Contact me",
-    resume: "Resume",
-    stackTitle: "Stack & tools",
-    stackLead:
-      "What I use day to day - from backend to agentic tooling.",
-    stackLanguages: "Languages",
-    stackBackend: "Backend",
-    stackData: "Databases",
-    stackAutomation: "Automation & scraping",
-    stackAI: "AI & agents",
-    stackTools: "Tools",
-    heroTitle: "I build backends.<br>I create AI agents.",
+    quickFacts: "Quick facts about me",
+    heroEyebrow: "Python Backend / AI-Driven Development",
+    heroLine1: "I build backends.",
+    heroLine2: 'I create <span class="accent-mid">AI agents.</span>',
     heroLead:
-      "I'm Kirill Bogatov, known online simply as xailiry :). I'm a Python developer building useful tools and exploring how AI changes software development.",
+      "I'm Kirill Bogatov, known online simply as xailiry. A Python developer building useful tools and exploring how AI changes software development.",
     viewProjects: "View projects",
-    agentVisualLabel: "Animation of an AI agent working with tools",
-    agentTaskLabel: "Task",
-    agentTask: "Find a solution",
-    agentCoreStatus: "analyzing the task",
-    agentBrowser: "Browser",
-    agentResultLabel: "Result",
-    agentResult: "Ready to use",
+    resume: "Resume",
+    statusLabel: "status.json",
+    statusRole: "Python Developer",
+    statusBased: "Saint Petersburg",
     factStart: "started programming",
     factAge: "years old",
     factEnglish: "English proficiency",
     factFocus: "my current focus",
     aboutTitle: "I don't just write code. I understand the problem.",
     aboutTextOne:
-      "I'm Kirill Bogatov. I started programming in early 2023 with Python and Django. Since then, I have moved from educational web apps to automation, parsers and AI-powered tools.",
+      "I'm Kirill Bogatov. I started programming in early 2023 with Python and Django. Since then I moved from educational web apps to automation, parsers and AI-powered tools.",
     aboutTextTwo:
       "My main interest now is agentic development: agents, tool use, context management and practical applications of new models. I follow the industry and test ideas through my own projects.",
     nowText:
       "I study, develop my projects and prepare for the 2027 Unified State Exams in computer science and advanced mathematics.",
+    stackTitle: "Stack & tools",
+    stackLead: "What I use day to day - from backend to agentic tooling.",
+    stackLanguages: "Languages",
+    stackBackend: "Backend",
+    stackData: "Databases",
+    stackAutomation: "Automation & scraping",
+    stackAI: "AI & agents",
+    stackTools: "Tools",
     projectsTitle: "Projects built around real problems.",
     projectsLead:
-      "Some are still evolving. The focus here is not perfect packaging, but a working idea and clear engineering logic.",
-    inDevelopment: "In development",
-    workingProject: "Working project",
-    schoolProject: "School project",
+      "Some are still evolving. The focus here is not packaging, but a working idea and clear engineering logic.",
     funpayDescription:
-      "A Chrome extension for FunPay sellers with a management dashboard, sales analytics, multiposting and automatic listing promotion.",
-    funpayImageAlt: "FunPay Automation Tool seller dashboard",
-    funpayDetailAlt: "FunPay Automation Tool multiposting interface",
+      "A seller control center for FunPay that lives on top of any page: listing promotion, multiposting with presets, a chat manager and a seller dashboard with stats - all in one Shadow DOM interface.",
+    funpayImageAlt: "FunPay Automation Tool control center",
+    funpayDetailAlt: "FunPay Automation Tool seller dashboard",
     techbotDescription:
       "A locally hosted Telegram bot that finds promising phone listings on Avito, learns market prices, assesses condition and estimates potential margins.",
     techhunterImageAlt: "TechHunter Telegram bot avatar",
@@ -150,25 +140,31 @@ const translations = {
       "Kirill Bogatov (xailiry) - Python Backend & AI-Driven Developer",
     pageDescription:
       "Portfolio of Kirill Bogatov (xailiry), a Python Backend and AI-Driven developer from Saint Petersburg.",
+    focus: ["agentic dev", "automation", "tool use", "scraping", "AI-driven"],
   },
 };
 
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 const languageButton = document.querySelector(".language-switch");
+const focusRotator = document.querySelector("[data-focus-rotator]");
 const pageDescription = document.querySelector('meta[name="description"]');
 const openGraphTitle = document.querySelector('meta[property="og:title"]');
 const openGraphDescription = document.querySelector(
   'meta[property="og:description"]',
 );
 
+let focusInterval = null;
+let focusTimeout = null;
+
 function calculateAge() {
   const today = new Date();
   const birthday = new Date(2009, 2, 31);
   let age = today.getFullYear() - birthday.getFullYear();
-  const monthDifference = today.getMonth() - birthday.getMonth();
 
   if (
-    monthDifference < 0 ||
-    (monthDifference === 0 && today.getDate() < birthday.getDate())
+    today.getMonth() < birthday.getMonth() ||
+    (today.getMonth() === birthday.getMonth() &&
+      today.getDate() < birthday.getDate())
   ) {
     age -= 1;
   }
@@ -176,123 +172,192 @@ function calculateAge() {
   return age;
 }
 
-function setLanguage(language) {
-  const dictionary = translations[language] ?? translations.ru;
+function startFocus(words) {
+  if (!focusRotator || !words?.length) return;
 
-  document.documentElement.lang = language;
+  clearInterval(focusInterval);
+  clearTimeout(focusTimeout);
+  focusRotator.style.opacity = "1";
+  focusRotator.textContent = words[0];
+
+  if (reducedMotion.matches) return;
+
+  let index = 0;
+  focusInterval = window.setInterval(() => {
+    focusRotator.style.opacity = "0";
+    focusTimeout = window.setTimeout(() => {
+      index = (index + 1) % words.length;
+      focusRotator.textContent = words[index];
+      focusRotator.style.opacity = "1";
+    }, 300);
+  }, 2600);
+}
+
+function applyLanguage(language) {
+  const lang = translations[language] ? language : "ru";
+  const dictionary = translations[lang];
+
+  document.documentElement.lang = lang;
+
   document.querySelectorAll("[data-i18n]").forEach((element) => {
-    const key = element.dataset.i18n;
-    if (dictionary[key]) {
-      element.innerHTML = dictionary[key];
-    }
+    const value = dictionary[element.dataset.i18n];
+    if (value != null) element.innerHTML = value;
   });
 
   document.querySelectorAll("[data-i18n-alt]").forEach((element) => {
-    const key = element.dataset.i18nAlt;
-    if (dictionary[key]) {
-      element.alt = dictionary[key];
-    }
+    const value = dictionary[element.dataset.i18nAlt];
+    if (value != null) element.alt = value;
   });
 
   document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
-    const key = element.dataset.i18nAriaLabel;
-    if (dictionary[key]) {
-      element.setAttribute("aria-label", dictionary[key]);
-    }
+    const value = dictionary[element.dataset.i18nAriaLabel];
+    if (value != null) element.setAttribute("aria-label", value);
   });
 
   document.querySelectorAll("[data-lang-option]").forEach((option) => {
-    option.classList.toggle("active", option.dataset.langOption === language);
+    option.classList.toggle("active", option.dataset.langOption === lang);
   });
 
-  pageDescription.content = dictionary.pageDescription;
-  openGraphTitle.content = dictionary.pageTitle;
-  openGraphDescription.content = dictionary.pageDescription;
   document.title = dictionary.pageTitle;
+  if (pageDescription) pageDescription.content = dictionary.pageDescription;
+  if (openGraphTitle) openGraphTitle.content = dictionary.pageTitle;
+  if (openGraphDescription) {
+    openGraphDescription.content = dictionary.pageDescription;
+  }
 
-  localStorage.setItem("portfolio-language", language);
+  try {
+    localStorage.setItem("portfolio-language", lang);
+  } catch {
+    // The site still works when storage is unavailable.
+  }
+
+  startFocus(dictionary.focus);
 }
 
-languageButton.addEventListener("click", () => {
-  const nextLanguage = document.documentElement.lang === "ru" ? "en" : "ru";
-  setLanguage(nextLanguage);
-  document.dispatchEvent(new Event("langchange"));
-});
+function getInitialLanguage() {
+  try {
+    const stored = localStorage.getItem("portfolio-language");
+    if (stored && translations[stored]) return stored;
+  } catch {
+    // Fall back to the browser language.
+  }
 
-document.getElementById("age-value").textContent = calculateAge();
-document.getElementById("current-year").textContent = new Date().getFullYear();
-
-const preferredLanguage =
-  localStorage.getItem("portfolio-language") ||
-  (navigator.language.toLowerCase().startsWith("ru") ? "ru" : "en");
-
-setLanguage(preferredLanguage);
-
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("is-visible");
-        observer.unobserve(entry.target);
-      }
-    });
-  },
-  { threshold: 0.12 },
-);
-
-document.querySelectorAll(".reveal").forEach((element, index) => {
-  element.style.transitionDelay = `${Math.min(index % 4, 3) * 55}ms`;
-  observer.observe(element);
-});
-
-const prefersReducedMotion = window.matchMedia(
-  "(prefers-reduced-motion: reduce)",
-);
-
-// ===== Sticky header condense on scroll =====
-const siteHeader = document.querySelector(".site-header");
-if (siteHeader) {
-  const updateHeader = () =>
-    siteHeader.classList.toggle("is-scrolled", window.scrollY > 8);
-  window.addEventListener("scroll", updateHeader, { passive: true });
-  updateHeader();
+  return navigator.language.toLowerCase().startsWith("ru") ? "ru" : "en";
 }
 
-// ===== Count-up numbers in quick facts =====
 function animateCount(element, from, to) {
-  if (prefersReducedMotion.matches) {
+  if (reducedMotion.matches) {
     element.textContent = to;
     return;
   }
+
   const duration = 1100;
-  const start = performance.now();
-  const tick = (now) => {
-    const progress = Math.min((now - start) / duration, 1);
+  const startedAt = performance.now();
+
+  function tick(now) {
+    const progress = Math.min((now - startedAt) / duration, 1);
     const eased = 1 - Math.pow(1 - progress, 3);
     element.textContent = Math.round(from + (to - from) * eased);
+
     if (progress < 1) requestAnimationFrame(tick);
-  };
+  }
+
   requestAnimationFrame(tick);
 }
 
-const countTargets = [...document.querySelectorAll(".fact-value[data-count-from]")];
-if (countTargets.length) {
+const ageElement = document.getElementById("age-value");
+if (ageElement) ageElement.textContent = calculateAge();
+
+document.querySelectorAll("[data-year]").forEach((element) => {
+  element.textContent = new Date().getFullYear();
+});
+
+applyLanguage(getInitialLanguage());
+
+languageButton?.addEventListener("click", () => {
+  applyLanguage(document.documentElement.lang === "ru" ? "en" : "ru");
+});
+
+reducedMotion.addEventListener?.("change", () => {
+  const dictionary =
+    translations[document.documentElement.lang] ?? translations.ru;
+  startFocus(dictionary.focus);
+});
+
+const revealTargets = document.querySelectorAll(
+  "[data-reveal]:not([data-reveal-late])",
+);
+const lateRevealTargets = document.querySelectorAll("[data-reveal-late]");
+
+if (reducedMotion.matches || !("IntersectionObserver" in window)) {
+  revealTargets.forEach((element) => element.classList.add("is-visible"));
+  lateRevealTargets.forEach((element) => element.classList.add("is-visible"));
+} else {
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        revealObserver.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.12, rootMargin: "0px 0px -8% 0px" },
+  );
+
+  revealTargets.forEach((element) => revealObserver.observe(element));
+
+  const lateRevealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        lateRevealObserver.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.12, rootMargin: "0px 0px -28% 0px" },
+  );
+
+  lateRevealTargets.forEach((element) => lateRevealObserver.observe(element));
+}
+
+const countTargets = document.querySelectorAll("[data-count-from]");
+
+if (reducedMotion.matches || !("IntersectionObserver" in window)) {
+  countTargets.forEach((element) => {
+    element.textContent = Number.parseInt(element.textContent, 10);
+  });
+} else {
   const countObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
+
         const element = entry.target;
-        const to = parseInt(element.textContent, 10);
-        const from = parseInt(element.dataset.countFrom, 10);
-        if (!Number.isNaN(to) && !Number.isNaN(from)) {
+        const from = Number.parseInt(element.dataset.countFrom, 10);
+        const to = Number.parseInt(element.textContent, 10);
+
+        if (!Number.isNaN(from) && !Number.isNaN(to)) {
           animateCount(element, from, to);
         }
+
         countObserver.unobserve(element);
       });
     },
     { threshold: 0.6 },
   );
+
   countTargets.forEach((element) => countObserver.observe(element));
+}
+
+const siteHeader = document.querySelector(".site-header");
+
+if (siteHeader) {
+  const updateHeader = () => {
+    siteHeader.classList.toggle("is-scrolled", window.scrollY > 8);
+  };
+
+  window.addEventListener("scroll", updateHeader, { passive: true });
+  updateHeader();
 }
 
 async function loadVisitorCount() {
@@ -317,246 +382,3 @@ async function loadVisitorCount() {
 }
 
 loadVisitorCount();
-
-// ===== Hero agent animation =====
-const agentContent = {
-  ru: {
-    task: "Найти решение",
-    statuses: [
-      "анализирует задачу",
-      "планирует шаги",
-      "настраивает агента",
-      "пишет код",
-      "ищет в вебе",
-      "вызывает API",
-      "собирает ответ",
-    ],
-    result: "Готово к использованию",
-  },
-  en: {
-    task: "Find a solution",
-    statuses: [
-      "analyzing the task",
-      "planning the steps",
-      "configuring an agent",
-      "writing code",
-      "searching the web",
-      "calling APIs",
-      "assembling the answer",
-    ],
-    result: "Ready to use",
-  },
-};
-
-const agentCanvas = document.querySelector(".agent-canvas");
-
-if (agentCanvas) {
-  const taskText = agentCanvas.querySelector(".agent-task-text");
-  const coreStatus = agentCanvas.querySelector(".agent-core-status");
-  const resultText = agentCanvas.querySelector(".agent-result-text");
-  const core = agentCanvas.querySelector(".agent-core");
-  const result = agentCanvas.querySelector(".agent-result");
-  const tools = {
-    python: agentCanvas.querySelector(".tool-python"),
-    browser: agentCanvas.querySelector(".tool-browser"),
-    api: agentCanvas.querySelector(".tool-api"),
-  };
-  const links = {
-    toCore: agentCanvas.querySelector(".flow-one"),
-    toPython: agentCanvas.querySelector(".flow-two"),
-    toBrowser: agentCanvas.querySelector(".flow-three"),
-    toApi: agentCanvas.querySelector(".flow-four"),
-    toResult: agentCanvas.querySelector(".flow-five"),
-  };
-
-  const currentLang = () =>
-    document.documentElement.lang === "en" ? "en" : "ru";
-  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-
-  // ---- Dynamic connector lines (always meet node edges at any size) ----
-  const svg = agentCanvas.querySelector(".agent-links");
-  const taskCard = agentCanvas.querySelector(".agent-request");
-  const baseLines = [...agentCanvas.querySelectorAll(".link-base")];
-
-  function rectIn(el, canvasRect) {
-    const b = el.getBoundingClientRect();
-    return { x: b.x - canvasRect.x, y: b.y - canvasRect.y, w: b.width, h: b.height };
-  }
-
-  function port(rect, otherCenter, axis) {
-    const cx = rect.x + rect.w / 2;
-    const cy = rect.y + rect.h / 2;
-    if (axis === "h") {
-      const dir = otherCenter[0] > cx ? 1 : -1;
-      return { p: [cx + (dir * rect.w) / 2, cy], d: [dir, 0] };
-    }
-    const dir = otherCenter[1] > cy ? 1 : -1;
-    return { p: [cx, cy + (dir * rect.h) / 2], d: [0, dir] };
-  }
-
-  function pathBetween(a, b) {
-    const ac = [a.x + a.w / 2, a.y + a.h / 2];
-    const bc = [b.x + b.w / 2, b.y + b.h / 2];
-    const axis =
-      Math.abs(bc[0] - ac[0]) >= Math.abs(bc[1] - ac[1]) ? "h" : "v";
-    const s = port(a, bc, axis);
-    const t = port(b, ac, axis);
-    const dist = Math.hypot(t.p[0] - s.p[0], t.p[1] - s.p[1]);
-    const k = Math.min(Math.max(dist * 0.45, 24), 90);
-    const c1 = [s.p[0] + s.d[0] * k, s.p[1] + s.d[1] * k];
-    const c2 = [t.p[0] + t.d[0] * k, t.p[1] + t.d[1] * k];
-    return `M ${s.p[0]} ${s.p[1]} C ${c1[0]} ${c1[1]} ${c2[0]} ${c2[1]} ${t.p[0]} ${t.p[1]}`;
-  }
-
-  function pathTaskToCore(task, coreRect) {
-    const start = [task.x + task.w, task.y + task.h / 2];
-    const end = [coreRect.x + coreRect.w / 2, coreRect.y];
-
-    if (end[0] <= start[0]) {
-      const verticalStart = [task.x + task.w / 2, task.y + task.h];
-      const dist = Math.hypot(
-        end[0] - verticalStart[0],
-        end[1] - verticalStart[1],
-      );
-      const k = Math.min(Math.max(dist * 0.38, 24), 56);
-      return `M ${verticalStart[0]} ${verticalStart[1]} C ${verticalStart[0]} ${verticalStart[1] + k} ${end[0]} ${end[1] - k} ${end[0]} ${end[1]}`;
-    }
-
-    const dist = Math.hypot(end[0] - start[0], end[1] - start[1]);
-    const k = Math.min(Math.max(dist * 0.38, 28), 64);
-    return `M ${start[0]} ${start[1]} C ${start[0] + k} ${start[1]} ${end[0]} ${end[1] - k} ${end[0]} ${end[1]}`;
-  }
-
-  function drawConnectors() {
-    const canvasRect = agentCanvas.getBoundingClientRect();
-    if (!canvasRect.width) return;
-    svg.setAttribute("viewBox", `0 0 ${canvasRect.width} ${canvasRect.height}`);
-    const coreRect = rectIn(core, canvasRect);
-    const defs = [
-      [links.toCore, rectIn(taskCard, canvasRect), coreRect, pathTaskToCore],
-      [links.toPython, coreRect, rectIn(tools.python, canvasRect)],
-      [links.toBrowser, coreRect, rectIn(tools.browser, canvasRect)],
-      [links.toApi, coreRect, rectIn(tools.api, canvasRect)],
-      [links.toResult, coreRect, rectIn(result, canvasRect)],
-    ];
-    defs.forEach(([flow, a, b, makePath = pathBetween], i) => {
-      const d = makePath(a, b);
-      flow.setAttribute("d", d);
-      if (baseLines[i]) baseLines[i].setAttribute("d", d);
-    });
-  }
-
-  let rafId = 0;
-  function scheduleDraw() {
-    cancelAnimationFrame(rafId);
-    rafId = requestAnimationFrame(drawConnectors);
-  }
-
-  const connectorObserver = new ResizeObserver(scheduleDraw);
-  [taskCard, core, result, tools.python, tools.browser, tools.api].forEach(
-    (el) => connectorObserver.observe(el),
-  );
-  connectorObserver.observe(agentCanvas);
-  window.addEventListener("resize", scheduleDraw);
-  window.addEventListener("load", drawConnectors);
-  drawConnectors();
-
-  let runToken = 0;
-
-  function clearAgentState() {
-    core.classList.remove("is-active", "is-thinking");
-    result.classList.remove("is-active");
-    Object.values(tools).forEach((node) => node.classList.remove("is-active"));
-    Object.values(links).forEach((link) => link.classList.remove("is-active"));
-  }
-
-  function setAgentStatic() {
-    const content = agentContent[currentLang()];
-    taskText.textContent = content.task;
-    coreStatus.textContent = content.statuses[0];
-    resultText.textContent = content.result;
-    core.classList.add("is-active");
-    result.classList.add("is-active");
-    Object.values(tools).forEach((node) => node.classList.add("is-active"));
-    Object.values(links).forEach((link) => link.classList.add("is-active"));
-  }
-
-  async function typeText(element, text, token) {
-    element.textContent = "";
-    for (const char of text) {
-      if (token !== runToken) return;
-      element.textContent += char;
-      await sleep(55);
-    }
-  }
-
-  async function runAgentCycle() {
-    const token = ++runToken;
-
-    while (token === runToken) {
-      const content = agentContent[currentLang()];
-
-      clearAgentState();
-      taskText.textContent = "";
-      resultText.textContent = content.result;
-      await sleep(450);
-      if (token !== runToken) return;
-
-      await typeText(taskText, content.task, token);
-      await sleep(350);
-      if (token !== runToken) return;
-
-      links.toCore.classList.add("is-active");
-      core.classList.add("is-active", "is-thinking");
-      coreStatus.textContent = content.statuses[0];
-      await sleep(950);
-      if (token !== runToken) return;
-
-      coreStatus.textContent = content.statuses[1];
-      await sleep(750);
-      if (token !== runToken) return;
-
-      coreStatus.textContent = content.statuses[2];
-      await sleep(850);
-      if (token !== runToken) return;
-
-      const steps = [
-        { status: content.statuses[3], tool: tools.python, link: links.toPython },
-        { status: content.statuses[4], tool: tools.browser, link: links.toBrowser },
-        { status: content.statuses[5], tool: tools.api, link: links.toApi },
-      ];
-
-      for (const step of steps) {
-        coreStatus.textContent = step.status;
-        step.link.classList.add("is-active");
-        step.tool.classList.add("is-active");
-        await sleep(850);
-        if (token !== runToken) return;
-      }
-
-      coreStatus.textContent = content.statuses[6];
-      core.classList.remove("is-thinking");
-      await sleep(600);
-      if (token !== runToken) return;
-
-      links.toResult.classList.add("is-active");
-      result.classList.add("is-active");
-      await sleep(2600);
-      if (token !== runToken) return;
-    }
-  }
-
-  function startAgent() {
-    if (reducedMotion.matches) {
-      runToken++;
-      setAgentStatic();
-    } else {
-      runAgentCycle();
-    }
-  }
-
-  startAgent();
-  document.addEventListener("langchange", startAgent);
-  reducedMotion.addEventListener?.("change", startAgent);
-}
