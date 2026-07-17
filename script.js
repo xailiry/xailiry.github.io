@@ -8,27 +8,27 @@ const translations = {
     navContact: "Контакты",
     contactShort: "Написать",
     quickFacts: "Кратко обо мне",
-    heroEyebrow: "Python Backend / AI-Driven Development",
-    heroLine1: "Пишу backend.",
-    heroLine2: 'Собираю <span class="accent-mid">AI-агентов.</span>',
+    heroEyebrow: "Python / Automation / AI",
+    heroLine1: "Автоматизирую рутину.",
+    heroLine2: 'Собираю <span class="accent-mid">AI-инструменты.</span>',
     heroLead:
-      "Меня зовут Кирилл Богатов, в сети - просто xailiry. Python-разработчик: создаю полезные инструменты и изучаю, как AI меняет разработку.",
-    viewProjects: "Смотреть проекты",
+      "Я Кирилл Богатов, Python-разработчик из Санкт-Петербурга. Делаю ботов, браузерную автоматизацию и AI-функции — от идеи до работающего продукта.",
+    viewProjects: "Смотреть кейсы",
     resume: "Резюме",
     statusLabel: "status.json",
     statusRole: "Python Developer",
     statusBased: "Санкт-Петербург",
-    factStart: "начал программировать",
-    factAge: "лет",
-    factEnglish: "английский язык",
-    factFocus: "главный фокус сейчас",
+    factProjects: "проекта в портфолио",
+    factStart: "в разработке с",
+    factBilingual: "двуязычное портфолио",
+    factOpen: "стажировка и проекты",
     aboutTitle: "Не просто пишу код. Разбираюсь в задаче.",
     aboutTextOne:
       "Я Кирилл Богатов. Начал программировать в начале 2023 года с Python и Django. С тех пор прошел путь от учебных веб-приложений до автоматизации, парсеров и инструментов с AI.",
     aboutTextTwo:
       "Сейчас мой основной интерес - agentic development: агенты, tool use, работа с контекстом и практичное применение новых моделей. Слежу за индустрией и проверяю идеи собственными проектами.",
     nowText:
-      "Учусь, развиваю свои проекты и готовлюсь к ЕГЭ 2027 по информатике и профильной математике.",
+      "Открыт к стажировке, совместным проектам и задачам, где можно соединить Python, автоматизацию и AI.",
     stackTitle: "Стек и инструменты",
     stackLead:
       "То, чем пользуюсь в работе - от бэкенда до агентных инструментов.",
@@ -36,39 +36,41 @@ const translations = {
     stackBackend: "Backend",
     stackData: "Базы данных",
     stackAutomation: "Автоматизация и парсинг",
-    stackAI: "AI и агенты",
+    stackAI: "AI-интеграции",
     stackTools: "Инструменты",
     projectsTitle: "Проекты, которые решают реальные задачи.",
     projectsLead:
-      "Некоторые еще развиваются. Здесь важнее не упаковка, а работающая идея и понятная инженерная логика.",
+      "Три проекта — от браузерной автоматизации до Telegram-бота и AI-функций в полноценном веб-приложении.",
+    funpayCategory: "Браузерная автоматизация",
     funpayDescription:
       "Центр управления для продавцов FunPay поверх любой страницы: поднятие объявлений, мультипостинг с пресетами, чат-менеджер и панель продавца со статистикой - все в одном интерфейсе на Shadow DOM.",
     funpayImageAlt: "Центр управления FunPay Automation Tool",
     funpayDetailAlt: "Панель продавца FunPay Automation Tool",
+    funpayProofOne: "Единый интерфейс для ключевых сценариев продавца",
+    funpayProofTwo: "Изолированный UI на Shadow DOM",
+    funpayProofThree: "Проверяемая логика с unit-тестами",
     techbotDescription:
       "Локальный Telegram-бот для поиска выгодных объявлений с телефонами на Avito. Изучает рынок, оценивает состояние и считает потенциальную маржу.",
     techhunterImageAlt: "Аватар Telegram-бота TechHunter",
+    techProofOne: "Анализ рыночных цен",
+    techProofTwo: "Оценка состояния и потенциальной маржи",
+    techProofThree: "Управление через Telegram",
     fitnessDescription:
       "Трекер тренировок с аналитикой прогресса и рекомендациями Gemini. Первый завершенный full-stack проект, сделанный для выступления в 10 классе.",
     fitnessImageAlt: "Логотип SMFitness",
+    fitnessProofOne: "Трекинг тренировок и прогресса",
+    fitnessProofTwo: "Рекомендации на базе Gemini",
+    fitnessProofThree: "Рабочая публичная демоверсия",
     openGithub: "Открыть на GitHub",
-    journeyTitle: "Три года любопытства и практики.",
-    timelineOneTitle: "Первый код",
-    timelineOneText: "Начал изучать Python и основы программирования.",
-    timelineTwoText:
-      "Веб-приложения, базы данных, API и первые законченные продукты.",
-    timelineThreeText:
-      "Агентные подходы, автоматизация и проекты на стыке AI и классической разработки.",
     contactEyebrow: "Можно просто написать",
     contactTitle: "Есть идея или интересная задача?",
     contactText:
       "Я открыт к общению, совместным проектам и новым техническим задачам. Быстрее всего отвечаю в Telegram.",
     footerText: "Кирилл Богатов · Санкт-Петербург",
-    visitorLabel: "Посещений:",
     pageTitle:
-      "Кирилл Богатов (xailiry) - Python Backend и AI-Driven разработчик",
+      "Кирилл Богатов (xailiry) — Python, Automation и AI Developer",
     pageDescription:
-      "Портфолио Кирилла Богатова (xailiry) - Python Backend и AI-Driven разработчика из Санкт-Петербурга.",
+      "Портфолио Кирилла Богатова (xailiry): Python-разработка, автоматизация и AI-инструменты.",
     focus: ["agentic dev", "автоматизация", "tool use", "парсинг", "AI-driven"],
   },
   en: {
@@ -80,66 +82,68 @@ const translations = {
     navContact: "Contact",
     contactShort: "Contact me",
     quickFacts: "Quick facts about me",
-    heroEyebrow: "Python Backend / AI-Driven Development",
-    heroLine1: "I build backends.",
-    heroLine2: 'I create <span class="accent-mid">AI agents.</span>',
+    heroEyebrow: "Python / Automation / AI",
+    heroLine1: "I automate repetitive work.",
+    heroLine2: 'I build useful <span class="accent-mid">AI tools.</span>',
     heroLead:
-      "I'm Kirill Bogatov, known online simply as xailiry. A Python developer building useful tools and exploring how AI changes software development.",
-    viewProjects: "View projects",
+      "I'm Kirill Bogatov, a Python developer from Saint Petersburg. I build bots, browser automation and AI features — from idea to working product.",
+    viewProjects: "View case studies",
     resume: "Resume",
     statusLabel: "status.json",
     statusRole: "Python Developer",
     statusBased: "Saint Petersburg",
-    factStart: "started programming",
-    factAge: "years old",
-    factEnglish: "English proficiency",
-    factFocus: "my current focus",
+    factProjects: "portfolio projects",
+    factStart: "building since",
+    factBilingual: "bilingual portfolio",
+    factOpen: "internships & projects",
     aboutTitle: "I don't just write code. I understand the problem.",
     aboutTextOne:
       "I'm Kirill Bogatov. I started programming in early 2023 with Python and Django. Since then I moved from educational web apps to automation, parsers and AI-powered tools.",
     aboutTextTwo:
       "My main interest now is agentic development: agents, tool use, context management and practical applications of new models. I follow the industry and test ideas through my own projects.",
     nowText:
-      "I study, develop my projects and prepare for the 2027 Unified State Exams in computer science and advanced mathematics.",
+      "Open to internships, collaborations and challenges that combine Python, automation and AI.",
     stackTitle: "Stack & tools",
     stackLead: "What I use day to day - from backend to agentic tooling.",
     stackLanguages: "Languages",
     stackBackend: "Backend",
     stackData: "Databases",
     stackAutomation: "Automation & scraping",
-    stackAI: "AI & agents",
+    stackAI: "AI integrations",
     stackTools: "Tools",
     projectsTitle: "Projects built around real problems.",
     projectsLead:
-      "Some are still evolving. The focus here is not packaging, but a working idea and clear engineering logic.",
+      "Three projects spanning browser automation, a Telegram bot and AI features in a full-stack web application.",
+    funpayCategory: "Browser automation",
     funpayDescription:
       "A seller control center for FunPay that lives on top of any page: listing promotion, multiposting with presets, a chat manager and a seller dashboard with stats - all in one Shadow DOM interface.",
     funpayImageAlt: "FunPay Automation Tool control center",
     funpayDetailAlt: "FunPay Automation Tool seller dashboard",
+    funpayProofOne: "One interface for essential seller workflows",
+    funpayProofTwo: "Isolated Shadow DOM UI",
+    funpayProofThree: "Unit-tested core logic",
     techbotDescription:
       "A locally hosted Telegram bot that finds promising phone listings on Avito, learns market prices, assesses condition and estimates potential margins.",
     techhunterImageAlt: "TechHunter Telegram bot avatar",
+    techProofOne: "Market price analysis",
+    techProofTwo: "Condition and margin estimation",
+    techProofThree: "Telegram-based control",
     fitnessDescription:
       "A workout tracker with progress analytics and Gemini recommendations. My first finished full-stack project, built for a 10th-grade school presentation.",
     fitnessImageAlt: "SMFitness logo",
+    fitnessProofOne: "Workout and progress tracking",
+    fitnessProofTwo: "Gemini-powered recommendations",
+    fitnessProofThree: "Public working demo",
     openGithub: "Open on GitHub",
-    journeyTitle: "Three years of curiosity and practice.",
-    timelineOneTitle: "First code",
-    timelineOneText: "Started learning Python and programming fundamentals.",
-    timelineTwoText:
-      "Web applications, databases, APIs and my first finished products.",
-    timelineThreeText:
-      "Agentic workflows, automation and projects at the intersection of AI and traditional development.",
     contactEyebrow: "Feel free to reach out",
     contactTitle: "Have an idea or an interesting challenge?",
     contactText:
       "I'm open to conversations, collaborations and new technical challenges. Telegram is the fastest way to reach me.",
     footerText: "Kirill Bogatov · Saint Petersburg",
-    visitorLabel: "Visits:",
     pageTitle:
-      "Kirill Bogatov (xailiry) - Python Backend & AI-Driven Developer",
+      "Kirill Bogatov (xailiry) — Python, Automation & AI Developer",
     pageDescription:
-      "Portfolio of Kirill Bogatov (xailiry), a Python Backend and AI-Driven developer from Saint Petersburg.",
+      "Portfolio of Kirill Bogatov (xailiry): Python development, browser automation and practical AI tools.",
     focus: ["agentic dev", "automation", "tool use", "scraping", "AI-driven"],
   },
 };
@@ -155,22 +159,6 @@ const openGraphDescription = document.querySelector(
 
 let focusInterval = null;
 let focusTimeout = null;
-
-function calculateAge() {
-  const today = new Date();
-  const birthday = new Date(2009, 2, 31);
-  let age = today.getFullYear() - birthday.getFullYear();
-
-  if (
-    today.getMonth() < birthday.getMonth() ||
-    (today.getMonth() === birthday.getMonth() &&
-      today.getDate() < birthday.getDate())
-  ) {
-    age -= 1;
-  }
-
-  return age;
-}
 
 function startFocus(words) {
   if (!focusRotator || !words?.length) return;
@@ -265,9 +253,6 @@ function animateCount(element, from, to) {
   requestAnimationFrame(tick);
 }
 
-const ageElement = document.getElementById("age-value");
-if (ageElement) ageElement.textContent = calculateAge();
-
 document.querySelectorAll("[data-year]").forEach((element) => {
   element.textContent = new Date().getFullYear();
 });
@@ -359,26 +344,3 @@ if (siteHeader) {
   window.addEventListener("scroll", updateHeader, { passive: true });
   updateHeader();
 }
-
-async function loadVisitorCount() {
-  const stat = document.querySelector(".visitor-stat");
-  const count = document.getElementById("visitor-count");
-  if (!stat || !count) return;
-
-  try {
-    const response = await fetch(
-      "https://xalaksy.goatcounter.com/counter/TOTAL.json",
-    );
-    if (!response.ok) return;
-
-    const data = await response.json();
-    if (!data.count) return;
-
-    count.textContent = data.count;
-    stat.hidden = false;
-  } catch {
-    // Analytics may be blocked; keep the optional public counter hidden.
-  }
-}
-
-loadVisitorCount();

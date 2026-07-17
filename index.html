@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Портфолио Кирилла Богатова (xailiry) - Python Backend и AI-Driven разработчика из Санкт-Петербурга."
+      content="Портфолио Кирилла Богатова (xailiry): Python-разработка, автоматизация и AI-инструменты."
     />
     <meta name="theme-color" content="#F3F2EA" />
-    <meta property="og:title" content="Кирилл Богатов (xailiry) - Developer Portfolio" />
+    <meta property="og:title" content="Кирилл Богатов (xailiry) — Python, Automation &amp; AI" />
     <meta
       property="og:description"
-      content="Python backend, agentic development and useful automation."
+      content="Python-разработка, браузерная автоматизация и практичные AI-инструменты."
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xailiry.github.io/" />
+    <meta property="og:image" content="https://xailiry.github.io/assets/og-cover.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href="https://xailiry.github.io/" />
-    <title>Кирилл Богатов (xailiry) - Python Backend & AI-Driven Developer</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <title>Кирилл Богатов (xailiry) — Python, Automation &amp; AI Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -44,9 +51,9 @@
           aria-label="Основная навигация"
           data-i18n-aria-label="mainNavigation"
         >
+          <a href="#projects" data-i18n="navProjects">Проекты</a>
           <a href="#about" data-i18n="navAbout">Обо мне</a>
           <a href="#stack" data-i18n="navStack">Стек</a>
-          <a href="#projects" data-i18n="navProjects">Проекты</a>
           <a href="#contact" data-i18n="navContact">Контакты</a>
         </nav>
 
@@ -56,7 +63,16 @@
             <span aria-hidden="true">/</span>
             <span data-lang-option="en">EN</span>
           </button>
-          <a class="header-contact" href="#contact" data-i18n="contactShort">Написать</a>
+          <a
+            class="header-contact"
+            href="https://t.me/xiliksy"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Telegram @xiliksy"
+          >
+            <span data-i18n="contactShort">Написать</span>
+            <span class="header-contact-icon" aria-hidden="true">TG</span>
+          </a>
         </div>
       </div>
     </header>
@@ -68,25 +84,27 @@
           <div class="hero-copy">
             <div class="hero-eyebrow">
               <span class="hero-eyebrow-line" aria-hidden="true"></span>
-              <span data-i18n="heroEyebrow">Python Backend / AI-Driven Development</span>
+              <span data-i18n="heroEyebrow">Python / Automation / AI</span>
             </div>
             <h1 class="hero-title">
               <span class="hero-line"
-                ><span class="hero-line-inner" data-i18n="heroLine1">Пишу backend.</span></span
+                ><span class="hero-line-inner" data-i18n="heroLine1"
+                  >Автоматизирую рутину.</span
+                ></span
               >
               <span class="hero-line"
                 ><span class="hero-line-inner delay" data-i18n="heroLine2"
-                  >Собираю <span class="accent-mid">AI-агентов.</span></span
+                  >Собираю <span class="accent-mid">AI-инструменты.</span></span
                 ></span
               >
             </h1>
             <p class="hero-lead" data-i18n="heroLead">
-              Меня зовут Кирилл Богатов, в сети — просто xailiry. Python-разработчик:
-              создаю полезные инструменты и изучаю, как AI меняет разработку.
+              Я Кирилл Богатов, Python-разработчик из Санкт-Петербурга. Делаю ботов,
+              браузерную автоматизацию и AI-функции — от идеи до работающего продукта.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#projects">
-                <span data-i18n="viewProjects">Смотреть проекты</span>
+                <span data-i18n="viewProjects">Смотреть кейсы</span>
                 <span aria-hidden="true">↘</span>
               </a>
               <a
@@ -137,10 +155,174 @@
 
       <div class="marquee" aria-hidden="true">
         <div class="marquee-track">
-          <span data-marquee-track class="marquee-set">PYTHON<i>✦</i>DJANGO<i>✦</i>AIOGRAM<i>✦</i>PLAYWRIGHT<i>✦</i>POSTGRESQL<i>✦</i>SQLALCHEMY<i>✦</i>CLAUDE CODE<i>✦</i>GEMINI API<i>✦</i>CHROME MV3<i>✦</i>CODEX<i>✦</i></span>
-          <span class="marquee-set" aria-hidden="true">PYTHON<i>✦</i>DJANGO<i>✦</i>AIOGRAM<i>✦</i>PLAYWRIGHT<i>✦</i>POSTGRESQL<i>✦</i>SQLALCHEMY<i>✦</i>CLAUDE CODE<i>✦</i>GEMINI API<i>✦</i>CHROME MV3<i>✦</i>CODEX<i>✦</i></span>
+          <span data-marquee-track class="marquee-set">PYTHON<i>✦</i>DJANGO<i>✦</i>AIOGRAM<i>✦</i>PLAYWRIGHT<i>✦</i>POSTGRESQL<i>✦</i>SQLALCHEMY<i>✦</i>TELEGRAM BOTS<i>✦</i>GEMINI API<i>✦</i>CHROME MV3<i>✦</i>AI INTEGRATION<i>✦</i></span>
+          <span class="marquee-set" aria-hidden="true">PYTHON<i>✦</i>DJANGO<i>✦</i>AIOGRAM<i>✦</i>PLAYWRIGHT<i>✦</i>POSTGRESQL<i>✦</i>SQLALCHEMY<i>✦</i>TELEGRAM BOTS<i>✦</i>GEMINI API<i>✦</i>CHROME MV3<i>✦</i>AI INTEGRATION<i>✦</i></span>
         </div>
       </div>
+
+      <section class="projects wrap section" id="projects">
+        <div class="section-intro" data-reveal>
+          <h2 data-i18n="projectsTitle">Проекты, которые решают реальные задачи.</h2>
+          <p data-i18n="projectsLead">
+            Три проекта — от браузерной автоматизации до Telegram-бота и
+            AI-функций в полноценном веб-приложении.
+          </p>
+        </div>
+
+        <article class="project project-featured" data-reveal>
+          <div class="project-gallery">
+            <img
+              class="project-image-main"
+              src="https://raw.githubusercontent.com/xailiry/FunPay-Automation-Tool/main/docs/images/toolbar-overview.png"
+              alt="Центр управления FunPay Automation Tool"
+              data-i18n-alt="funpayImageAlt"
+              loading="lazy"
+            />
+            <img
+              class="project-image-detail"
+              src="https://raw.githubusercontent.com/xailiry/FunPay-Automation-Tool/main/docs/images/seller-dashboard.png"
+              alt="Панель продавца FunPay Automation Tool"
+              data-i18n-alt="funpayDetailAlt"
+              loading="lazy"
+            />
+          </div>
+          <div class="project-copy">
+            <div class="project-kicker">
+              <span>01 / 03</span>
+              <span data-i18n="funpayCategory">Browser automation</span>
+            </div>
+            <h3>FunPay Automation Tool</h3>
+            <p data-i18n="funpayDescription">
+              Центр управления для продавцов FunPay поверх любой страницы: поднятие
+              объявлений, мультипостинг с пресетами, чат-менеджер и панель продавца
+              со статистикой — всё в одном интерфейсе на Shadow DOM.
+            </p>
+            <ul class="project-proof">
+              <li data-i18n="funpayProofOne">Единый интерфейс для ключевых сценариев продавца</li>
+              <li data-i18n="funpayProofTwo">Изолированный UI на Shadow DOM</li>
+              <li data-i18n="funpayProofThree">Проверяемая логика с unit-тестами</li>
+            </ul>
+            <ul class="chips chips-sm">
+              <li>JavaScript</li>
+              <li>Manifest V3</li>
+              <li>Chrome API</li>
+              <li>Unit tests</li>
+            </ul>
+            <a
+              class="project-link"
+              href="https://github.com/xailiry/FunPay-Automation-Tool"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span data-i18n="openGithub">Открыть на GitHub</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project" data-reveal>
+            <div class="project-media project-media-techhunter">
+              <img
+                src="./assets/techhunter-banner-v2.jpg"
+                alt="Аватар Telegram-бота TechHunter"
+                data-i18n-alt="techhunterImageAlt"
+                loading="lazy"
+                width="1672"
+                height="941"
+              />
+            </div>
+            <div class="project-copy">
+              <div class="project-kicker">
+                <span>02 / 03</span>
+                <span>Python / Telegram</span>
+              </div>
+              <h3>TechHunter Bot</h3>
+              <p data-i18n="techbotDescription">
+                Локальный Telegram-бот для поиска выгодных объявлений с телефонами
+                на Avito. Изучает рынок, оценивает состояние и считает потенциальную
+                маржу.
+              </p>
+              <ul class="project-proof">
+                <li data-i18n="techProofOne">Анализ рыночных цен</li>
+                <li data-i18n="techProofTwo">Оценка состояния и потенциальной маржи</li>
+                <li data-i18n="techProofThree">Управление через Telegram</li>
+              </ul>
+              <ul class="chips chips-sm">
+                <li>Python 3.13</li>
+                <li>aiogram</li>
+                <li>Playwright</li>
+                <li>SQLAlchemy</li>
+              </ul>
+              <a
+                class="project-link project-link-end"
+                href="https://github.com/xailiry/TechBot"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="underline" data-i18n="openGithub">Открыть на GitHub</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project" data-reveal>
+            <div class="project-media project-media-fitness">
+              <img
+                src="./assets/smfitness-wordmark.webp"
+                alt="Логотип SMFitness"
+                data-i18n-alt="fitnessImageAlt"
+                loading="lazy"
+                width="1672"
+                height="941"
+              />
+            </div>
+            <div class="project-copy">
+              <div class="project-kicker">
+                <span>03 / 03</span>
+                <span>Full-stack / AI</span>
+              </div>
+              <h3>SMFitness</h3>
+              <p data-i18n="fitnessDescription">
+                Трекер тренировок с аналитикой прогресса и рекомендациями Gemini.
+                Первый завершённый full-stack проект, сделанный для выступления в 10
+                классе.
+              </p>
+              <ul class="project-proof">
+                <li data-i18n="fitnessProofOne">Трекинг тренировок и прогресса</li>
+                <li data-i18n="fitnessProofTwo">Рекомендации на базе Gemini</li>
+                <li data-i18n="fitnessProofThree">Рабочая публичная демоверсия</li>
+              </ul>
+              <ul class="chips chips-sm">
+                <li>Django 5</li>
+                <li>PostgreSQL</li>
+                <li>Gemini API</li>
+                <li>Chart.js</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://github.com/xailiry/SMFitness"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="underline">GitHub</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  class="project-link"
+                  href="https://smfitness.onrender.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="underline">Demo</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
 
       <section
         class="quick-facts wrap"
@@ -150,20 +332,20 @@
         data-reveal-late
       >
         <div class="fact">
-          <div class="fact-value"><span data-count-from="2018">2023</span></div>
-          <div class="fact-label" data-i18n="factStart">начал программировать</div>
+          <div class="fact-value"><span data-count-from="0">3</span></div>
+          <div class="fact-label" data-i18n="factProjects">проекта в портфолио</div>
         </div>
         <div class="fact">
-          <div class="fact-value"><span id="age-value" data-count-from="0">17</span></div>
-          <div class="fact-label" data-i18n="factAge">лет</div>
+          <div class="fact-value">2023</div>
+          <div class="fact-label" data-i18n="factStart">в разработке с</div>
         </div>
         <div class="fact">
-          <div class="fact-value">A2-B1</div>
-          <div class="fact-label" data-i18n="factEnglish">английский язык</div>
+          <div class="fact-value">RU / EN</div>
+          <div class="fact-label" data-i18n="factBilingual">двуязычное портфолио</div>
         </div>
         <div class="fact">
-          <div class="fact-value accent">Python + AI</div>
-          <div class="fact-label" data-i18n="factFocus">главный фокус сейчас</div>
+          <div class="fact-value accent">open to work</div>
+          <div class="fact-label" data-i18n="factOpen">стажировка и проекты</div>
         </div>
       </section>
 
@@ -186,8 +368,8 @@
           </div>
         </div>
         <p class="about-note" data-reveal data-i18n="nowText">
-          Учусь, развиваю свои проекты и готовлюсь к ЕГЭ 2027 по информатике и
-          профильной математике.
+          Открыт к стажировке, совместным проектам и задачам, где можно соединить
+          Python, автоматизацию и AI.
         </p>
       </section>
 
@@ -234,11 +416,11 @@
             </ul>
           </div>
           <div class="stack-card" data-reveal>
-            <h3 data-i18n="stackAI">AI и агенты</h3>
+            <h3 data-i18n="stackAI">AI-интеграции</h3>
             <ul class="chips">
-              <li>Claude Code</li>
-              <li>Codex</li>
-              <li>Antigravity</li>
+              <li>Gemini API</li>
+              <li>Tool use</li>
+              <li>Context design</li>
             </ul>
           </div>
           <div class="stack-card" data-reveal>
@@ -249,169 +431,6 @@
             </ul>
           </div>
         </div>
-      </section>
-
-      <section class="projects wrap section" id="projects">
-        <div class="section-intro" data-reveal>
-          <h2 data-i18n="projectsTitle">Проекты, которые решают реальные задачи.</h2>
-          <p data-i18n="projectsLead">
-            Некоторые ещё развиваются. Здесь важнее не упаковка, а работающая идея
-            и понятная инженерная логика.
-          </p>
-        </div>
-
-        <article class="project project-featured" data-reveal>
-          <div class="project-gallery">
-            <img
-              class="project-image-main"
-              src="https://raw.githubusercontent.com/xailiry/FunPay-Automation-Tool/main/docs/images/toolbar-overview.png"
-              alt="Центр управления FunPay Automation Tool"
-              data-i18n-alt="funpayImageAlt"
-              loading="lazy"
-            />
-            <img
-              class="project-image-detail"
-              src="https://raw.githubusercontent.com/xailiry/FunPay-Automation-Tool/main/docs/images/seller-dashboard.png"
-              alt="Панель продавца FunPay Automation Tool"
-              data-i18n-alt="funpayDetailAlt"
-              loading="lazy"
-            />
-          </div>
-          <div class="project-copy">
-            <h3>FunPay Automation Tool</h3>
-            <p data-i18n="funpayDescription">
-              Центр управления для продавцов FunPay поверх любой страницы: поднятие
-              объявлений, мультипостинг с пресетами, чат-менеджер и панель продавца
-              со статистикой — всё в одном интерфейсе на Shadow DOM.
-            </p>
-            <ul class="chips chips-sm">
-              <li>JavaScript</li>
-              <li>Manifest V3</li>
-              <li>Chrome API</li>
-              <li>Unit tests</li>
-            </ul>
-            <a
-              class="project-link"
-              href="https://github.com/xailiry/FunPay-Automation-Tool"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span data-i18n="openGithub">Открыть на GitHub</span>
-              <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-        </article>
-
-        <div class="project-grid">
-          <article class="project" data-reveal>
-            <div class="project-media project-media-techhunter">
-              <img
-                src="./assets/techhunter-banner-v2.jpg"
-                alt="Аватар Telegram-бота TechHunter"
-                data-i18n-alt="techhunterImageAlt"
-                loading="lazy"
-              />
-            </div>
-            <div class="project-copy">
-              <h3>TechHunter Bot</h3>
-              <p data-i18n="techbotDescription">
-                Локальный Telegram-бот для поиска выгодных объявлений с телефонами
-                на Avito. Изучает рынок, оценивает состояние и считает потенциальную
-                маржу.
-              </p>
-              <ul class="chips chips-sm">
-                <li>Python 3.13</li>
-                <li>aiogram</li>
-                <li>Playwright</li>
-                <li>SQLAlchemy</li>
-              </ul>
-              <a
-                class="project-link project-link-end"
-                href="https://github.com/xailiry/TechBot"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span class="underline" data-i18n="openGithub">Открыть на GitHub</span>
-                <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </article>
-
-          <article class="project" data-reveal>
-            <div class="project-media project-media-fitness">
-              <img
-                src="./assets/smfitness-wordmark.png"
-                alt="Логотип SMFitness"
-                data-i18n-alt="fitnessImageAlt"
-                loading="lazy"
-              />
-            </div>
-            <div class="project-copy">
-              <h3>SMFitness</h3>
-              <p data-i18n="fitnessDescription">
-                Трекер тренировок с аналитикой прогресса и рекомендациями Gemini.
-                Первый завершённый full-stack проект, сделанный для выступления в 10
-                классе.
-              </p>
-              <ul class="chips chips-sm">
-                <li>Django 5</li>
-                <li>PostgreSQL</li>
-                <li>Gemini API</li>
-                <li>Chart.js</li>
-              </ul>
-              <div class="project-links">
-                <a
-                  class="project-link"
-                  href="https://github.com/xailiry/SMFitness"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span class="underline">GitHub</span>
-                  <span aria-hidden="true">↗</span>
-                </a>
-                <a
-                  class="project-link"
-                  href="https://smfitness.onrender.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span class="underline">Demo</span>
-                  <span aria-hidden="true">↗</span>
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="journey wrap section">
-        <h2 class="journey-title" data-reveal data-i18n="journeyTitle">
-          Три года любопытства и практики.
-        </h2>
-        <ol class="timeline">
-          <li data-reveal>
-            <time>2023</time>
-            <h3 data-i18n="timelineOneTitle">Первый код</h3>
-            <p data-i18n="timelineOneText">
-              Начал изучать Python и основы программирования.
-            </p>
-          </li>
-          <li data-reveal>
-            <time>2024–25</time>
-            <h3>Django &amp; Backend</h3>
-            <p data-i18n="timelineTwoText">
-              Веб-приложения, базы данных, API и первые законченные продукты.
-            </p>
-          </li>
-          <li data-reveal>
-            <time>2026</time>
-            <h3>AI-Driven Development</h3>
-            <p data-i18n="timelineThreeText">
-              Агентные подходы, автоматизация и проекты на стыке AI и классической
-              разработки.
-            </p>
-          </li>
-        </ol>
       </section>
 
       <section class="contact" id="contact">
@@ -458,11 +477,6 @@
               <span data-i18n="footerText">Кирилл Богатов · Санкт-Петербург</span>
               <span aria-hidden="true"> · </span>
               <span data-year>2026</span>
-              <span class="visitor-stat" hidden>
-                <span aria-hidden="true"> · </span>
-                <span data-i18n="visitorLabel">Посещений:</span>
-                <span id="visitor-count" aria-live="polite"></span>
-              </span>
             </p>
           </div>
         </footer>
